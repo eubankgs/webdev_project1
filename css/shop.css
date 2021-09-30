@@ -26,7 +26,7 @@ margin-bottom: 1rem;
 .wrapper {
 min-height: 100vh;
 padding: 2rem 0;
-background: #40424a;
+background:lightpink;
 color: #e4e4e8;
 font-family: 'Roboto', sans-serif;
 text-align: center;
@@ -49,5 +49,5 @@ object-fit: cover;
 .grid-item figcaption {
 display: block;
 padding: .625rem .5rem;
-background: palevioletred;
+background: #333;
 }
