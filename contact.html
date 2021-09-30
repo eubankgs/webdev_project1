@@ -4,18 +4,18 @@
 <head>
     <title>Contact Page</title>
     <link href="./css/style.css" rel="stylesheet" type='text/css' >
+    <link href="./css/contact.css" rel="stylesheet" type='text/css' >
+    <link rel="shortcut icon" type="image/jpg" href="https://cdn-icons-png.flaticon.com/512/708/708872.png"/>
     
 </head>
 
 <body>
     
-
     <div class="topnav">
         <a class="active" href="index.html">Home</a>
         <a href="shop.html">Shop</a>
         <a href="design.html">Design</a>
         <a href="contact.html">Contact</a>
-        <a href="review.html">Review</a>
         <a href="about.html">About</a>
     </div>
 
@@ -32,27 +32,30 @@
                         <img class="center" src="logo.PNG" width="100%">
                     </div>
                 </div>
-
             </div>
 
             <div class="container">
                 
                 <div class="child">
                     <form>
-                        <br>
-                        <label for="First">First Name:</label>
-                        <input type="text" id ="First" name="First"><br> <br>
-
-                        <label for="Last"> Last Name: </label>
-                        <input type="text" id ="Last" name="Last"><br>  <br>
-
-                        <label for="email">Enter Email:</label>
-                        <input type="email" id ="email" name="email"><br>  <br>
-                        
+                        <item>
+                            <label for="First">First Name:</label>
+                            <input type="text" id ="First" name="First"> <br> <br>
+                        </item>
+                        <item>
+                            <label for="Last"> Last Name: </label>
+                            <input type="text" id ="Last" name="Last"><br>  <br>
+                        </item>
+                        <item>
+                            <label for="email">Enter Email:</label>
+                            <input type="email" id ="email" name="email"><br>  <br>
+                        </item>
                         <label for="topic">Request Topic:</label>
 
                         <select name="topic" id="topic">
                             <option value="choose">Choose a value</option>
+                            <option value="wantDesign">Want to Design</option>
+                            <option value="buy">Looking to buy</option>
                             <option value="price">Questions about pricing</option>
                             <option value="design">Options for designing</option>
                             <option value="other">Other</option>
@@ -64,6 +67,8 @@
                 
             </div>
         </div>
+        <footer>Page created by Gianna Casolara<br>
+            Visit contact page to find company information</footer>
     </div>
 </body>
 </html>
