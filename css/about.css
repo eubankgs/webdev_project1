@@ -1,23 +1,7 @@
-item {
-    display: flex;
-    justify-content: right;
-    flex-direction: column;
-}
-
-input {
-    max-width: 250px;
-}
-
-.contactBody {
-    margin-top: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  .container {
+.container {
     background-color: white;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -27,7 +11,7 @@ input {
 .child {
     max-width: 400px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
     align-items: stretch;
     justify-content: center;
