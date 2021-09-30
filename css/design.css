@@ -1,5 +1,5 @@
 .grid {
-    max-width: 1000px;
+    max-width: 1250px;
     margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -9,6 +9,17 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+}
+
+.grid-item figure img {
+    display: block;
+    padding-top: 40px;
+    
+    background-color:grey;
+    width: 250px; /* width of container */
+    height: 270px; /* height of container */
+
+    object-fit: cover;
 }
 
 .grid-item {
@@ -45,8 +56,5 @@ ul {
     margin: 0; /* Remove margins */
 }
 li {
-    color: white;
-    
-   
-    
+    color: white; 
 }
