@@ -12,28 +12,28 @@ logobody {
   --webkit-transform: translate3d(0,0,0);
 }
 
-logodiv {
+.logodivFirst {
   display:inline-block;
   overflow:hidden;
   white-space:nowrap;
-}
-
-logodiv:first-of-type {    /* For increasing performance 
-                       ID/Class should've been used. 
-                       For a small demo 
-                       it's okaish for now */
   animation: showup 9s infinite;
 }
 
-logodiv:last-of-type {
+.logodivLast {
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
   width:0px;
   animation: reveal 9s infinite;
 }
 
-logodiv:last-of-type span {
-  margin-left:-355px;
+.logodivSpan {
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
   animation: slidein 9s infinite;
 }
+
 
 @keyframes showup {
     0% {opacity:0;}
